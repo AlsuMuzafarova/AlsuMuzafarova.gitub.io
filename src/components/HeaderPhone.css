@@ -1,0 +1,65 @@
+.HeaderPhone{
+    position: sticky;
+    top: 0vh;
+    overflow: visible;
+    justify-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 93.75%;
+    height: 7.75vh;
+    z-index: 50;
+    background-color: rgba(246, 247, 249, 1);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.avatarFrame{
+    width: 7%;
+    height: 67.74%;
+}
+
+.search-box{
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(246, 247, 249, 1);
+    width: 85.5%;
+    height: 100%;
+}
+
+.notificationsIconFrame{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 67.74%;
+    width: 7%;
+}
+
+.lineOfSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67.74%;
+    width: 98.05%;
+    background-color: rgba(19, 19, 20, 0.04);
+    border-radius: 8px;
+    gap: 2%;
+}
+
+.searchIcon{
+    width: 3.45%;
+    height: 38.09%;
+}
+
+.searchInput{
+    width: 82.5%;
+    height: 47.62%;
+    color: rgba(19, 19, 20, 0.4);
+    background: none;
+    border: none;
+}
+
+.voiceIcon{
+    width: 4.77%;
+    height: 57.14%;
+}

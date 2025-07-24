@@ -1,0 +1,542 @@
+/*border: 2px solid #000;*/
+:root {
+    background-color: whitesmoke;
+}
+
+.unitop-container {
+    max-width: 100vw;
+    max-height: 500vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+Header{
+    display: flex;
+}
+
+HeaderPhone{
+    display: none;
+}
+
+.main-content {
+    justify-self: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    height: 92.07%;
+    width: 59.72%;
+    top: 1.33vh;
+    gap: 3.47%;
+    background-color: whitesmoke;
+}
+
+.avav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 61.63%;
+    height: 95%;
+    border-radius: 15px;
+    gap: 2vh;
+}
+
+.card-conteiner{
+    display: flex;
+    width: 94.34%;
+    height: 7.22%;
+    padding-top: 1.74%;
+    padding-bottom: 1.74%;
+    gap: 3.2%;
+}
+
+.emailConfirmationYellow{
+    display: flex;
+    align-items: center;
+    width: 94.34%;
+}
+
+.emailConfirmationRed{
+    display: flex;
+    align-items: center;
+    width: 94.34%;
+}
+
+.confirmationFrameYellow{
+    display: flex;
+    align-items: center;
+    height: 74.36%;
+    width: 100%;
+    gap: 2.4%;
+    padding: 1% 0 0;
+    border-radius: 15px;
+    background-color: rgba(255, 204, 0, 0.08);
+}
+
+.confirmationFrameRed{
+    display: flex;
+    align-items: center;
+    height: 74.36%;
+    width: 100%;
+    gap: 2.4%;
+    padding: 1% 0 0;
+    border-radius: 15px;
+    background-color: rgba(255, 59, 48, 0.08);
+}
+
+.confirmationMessageYellow{
+    width: 86.4%;
+    height: 72.4%;
+}
+
+.confirmationMessageRed{
+    width: 86.4%;
+    height: 72.4%;
+}
+
+.confirmationFrameYellow img{
+    padding-left: 1%;
+    width: 6.8%;
+    height: 27.29%;
+}
+.confirmationFrameRed img{
+    padding-left: 1%;
+    width: 6.8%;
+    height: 27.29%;
+}
+
+.text1{
+    position: relative;
+    width: 100%;
+    font-family: Suisse Intl, serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1rem;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.text2{
+    position: relative;
+    font-weight: 450;
+    font-size: 0.9375rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    font-family: Suisse Intl, serif;
+    color: rgba(19, 19, 20, 0.4);
+    text-decoration: underline;
+    text-decoration-color: rgba(19, 19, 20, 0.4);
+    margin-top: 2%;
+}
+
+.text2:hover{
+    color: rgba(19, 19, 20, 0.8);
+    cursor: pointer;
+}
+
+.meetsFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94.34%;
+    gap: 5px;
+}
+
+.meetsFrame p{
+    width: 93.6%;
+    font-family: Suisse Intl, serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(19, 19, 20, 0.4);
+    margin: 0 0 23px;
+}
+
+.meetsFrame h3{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.meetsFrame .icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 23px 0 0;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.375rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.plus{
+    width: 94.34%;
+    padding: 10px;
+    margin: 0;
+}
+
+.plus-frame{
+    justify-self: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    margin: 0;
+    padding: 1.5%;
+    gap: 0.1%;
+    background-color: rgba(168, 229, 69, 0.15);
+}
+
+.plus-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 64.2%;
+
+}
+
+.plus-description h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.1px;
+    margin: 0 0 3.49% 10%;
+}
+
+.plus-description p{
+    font-family: Suisse Intl, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    color: rgba(19, 19, 20, 0.4);
+    margin: 0 0 0 10%;
+}
+
+.plus-icon{
+    width: 40%;
+    height: 55%;
+    margin-top: 7.5%;
+}
+
+.business{
+    width: 94.34%;
+    padding: 10px;
+    margin: 0;
+}
+
+.business-frame{
+    justify-self: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    padding: 1.5%;
+    margin: 0;
+    gap: 0.1%;
+    background-color: rgba(244, 245, 248, 1);
+}
+
+.business-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 64.2%;
+
+}
+
+.business-description h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.1px;
+    margin: 0 0 3.49% 10%;
+}
+
+.business-description p{
+    font-family: Suisse Intl, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    color: rgba(19, 19, 20, 0.4);
+    margin: 0 0 0 10%;
+}
+
+.business-icon{
+    width: 40%;
+    height: 55%;
+    margin-top: 7.5%;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25.53vh;
+    width: 94.34%;
+    gap: 4.28%;
+    padding: 0;
+}
+
+.content-articles{
+    display: flex;
+    align-content: flex-start;
+    height: 75.88%;
+    width: 100%;
+    gap: 3.2%;
+}
+
+.articles-card{
+    width: 31.8%;
+    height: 95.37%;
+}
+
+#articles-card1 img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+#articles-card1 p{
+    position: relative;
+    top: -60%;
+    left: 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    height: 40%;
+    z-index: 23;
+    font-family: Suisse Intl, serif;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+}
+
+#articles-card2 img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+#articles-card2 p{
+    position: relative;
+    top: -50%;
+    left: 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    height: 40%;
+    z-index: 23;
+    font-family: Suisse Intl, serif;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+}
+
+#articles-card3 img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+#articles-card3 p{
+    position: relative;
+    top: -48%;
+    left: 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    height: 40%;
+    z-index: 23;
+    font-family: Suisse Intl, serif;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+}
+
+.articles2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50.53vh;
+    width: 94.34%;
+    gap: 4.28%;
+    padding: 0;
+    margin: 1.67% 0;
+    overflow: hidden;
+}
+
+.content-articles2{
+    display: flex;
+    height: 87.91%;
+    width: 136.8%;
+    gap: 1.6%;
+}
+
+.articles2-card{
+    width: 66.8%;
+    height: 91%;
+    padding: 2% 0.5%;
+    border-radius: 15px;
+    z-index: 20;
+}
+
+.text-place{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 91.02%;
+    gap: 5px;
+    margin: 0;
+}
+
+.text-place img{
+    width: 13.16%;
+    margin: 0;
+}
+
+.text-place h4{
+    width: 88.16%;
+    height: 22.09%;
+    margin: 0;
+    font-family: Suisse Intl, serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+    leading-trim: NONE;
+    line-height: 1.1875rem;
+    letter-spacing: 0.1px;
+    white-space: nowrap;
+}
+
+.text-place p{
+    width: 62.5%;
+    height: 39.53%;
+    margin: 0;
+    font-family: Suisse Intl, serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    leading-trim: NONE;
+    line-height: 0.9375rem;
+    letter-spacing: 0.1px;
+    color: rgba(19, 19, 20, 0.4);
+}
+
+#articles2-card1 .text{
+    display: flex;
+    height: 100%;
+    width: 91.02%;
+    margin: 0 4.49%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#articles2-card2 .text{
+    display: flex;
+    height: 100%;
+    width: 91.02%;
+    margin: 0 4.49%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#articles2-card1 .picture{
+    position: relative;
+    width: 71.86%;
+    height: 32.93%;
+    left: -2%;
+    top: -70%;
+    margin-bottom: 22%;
+    z-index: 21;
+
+}
+
+#articles2-card2 .picture{
+    position: relative;
+    width: 74.06%;
+    height: 45.3%;
+    right: 10%;
+    top: -65%;
+    margin-bottom: 10%;
+    z-index: 21;
+}
+
+.articles2-card button{
+    width: 91.02%;
+    height: 12.5%;
+    border-radius: 15px;
+    margin: 0 4% 2%;
+    background-color: rgba(19, 19, 20, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.articles2-card button:focus{
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+#articles2-card1{
+    background-color: rgba(251, 246, 236, 1);
+}
+
+#articles2-card2{
+    background-color: rgba(244, 244, 244, 1);
+}
+
+@media (min-width: 641px) and (max-width: 1024px){
+    .main-content{
+        width: 84.375%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 640px){
+    .unitop-container{
+        justify-items: center;
+        margin: 0;
+    }
+    .main-content{
+        width: 93.75%;
+        height: 96.825%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .avav{
+        order: -1;
+        width: 100%;
+        height: 97.1%;
+        padding: 0;
+    }
+}

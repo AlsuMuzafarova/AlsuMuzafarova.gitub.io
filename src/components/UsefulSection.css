@@ -1,0 +1,142 @@
+.useful-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 94.34%;
+    height: 62.67vh;
+    padding: 5px 20px;
+}
+
+.useful-title {
+    height: 8%;
+    display: flex;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.useful-grid {
+    display: grid;
+    width: 100%;
+    height: 92%;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: 48% 48%;
+    column-gap: 2%;
+    row-gap: 2%;
+    grid-template-areas:
+    "A   E"
+    "B   E";
+    align-content: center;
+    justify-content: center;
+}
+
+#helpBusiness {
+    grid-area: A;
+}
+#myVisits{
+    grid-area: E;
+}
+#qrCode{
+    grid-area: B;
+}
+
+.useful-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.useful-icon-container{
+    display: flex;
+    justify-content: flex-end;
+    height: 50.14%;
+    width: 100%;
+}
+
+.useful-title-action{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-end;
+    height: 49.86%;
+    width: 100%;
+    gap: 14%;
+
+}
+
+#myVisits .useful-title-action{
+    gap: 4%
+}
+
+.useful-title-action h3{
+    max-height: 36.96%;
+    width: 43.59%;
+    white-space: nowrap;
+    font-family: Suisse Intl, serif;
+    font-weight: 500;
+    font-size: 1.1875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.1px;
+    margin: 0 0 0 3%;
+    padding: 0;
+
+}
+
+#myVisits .useful-action{
+    height: 24.7%;
+    width: 49.6%;
+}
+
+.useful-action {
+    background-color: rgba(19, 19, 20, 0.1);
+    height: 49.7%;
+    width: 49.6%;
+    text-align: center;
+    border-radius: 20px;
+    border: white;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-family: Suisse Intl, serif;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: rgba(19, 19, 20, 0.8);
+}
+
+.useful-action:hover{
+    cursor: pointer;
+}
+
+.useful-action:focus{
+    transform: translateY(1px);
+}
+
+#helpBusiness1 .useful-item-icon{
+    width: 37.18%;
+    height: 77.45%;
+}
+
+#helpBusiness2 .useful-item-icon{
+    width: 37.18%;
+    height: 77.45%;
+}
+
+#qrCode1 .useful-item-icon{
+    width: 35.9%;
+    height: 69.46%;
+}
+
+#qrCode2 .useful-item-icon{
+    width: 35.9%;
+    height: 69.46%;
+}
+
+#myVisits .useful-item-icon{
+    width: 74.45%;
+    height: 75.8%;
+}
