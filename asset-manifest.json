@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/css/main.e9d6f35e.css",
-    "main.js": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/main.05d4c81f.js",
+    "main.js": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/main.f7332ab9.js",
     "static/js/453.a3300dab.chunk.js": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/453.a3300dab.chunk.js",
     "static/media/card_box.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/card_box.8068279563541a32c1ba6c79382ee3b0.svg",
     "static/media/diamond.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/diamond.9a1dc57acaf9c4c88f0840e3efa3c777.svg",
@@ -44,15 +44,15 @@
     "static/media/orders.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/orders.ee964ca8d973b065452a13ca54e468ad.svg",
     "static/media/staff.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/staff.92163b9b9feef2a3260cd36fdfae0cc9.svg",
     "static/media/staff-icon.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/staff-icon.205b83544b1afac364953b86e07ad729.svg",
-    "index.html": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/index.html",
     "static/media/searchOutline.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/searchOutline.461aaf2c0efbcd8db72395acb58445d2.svg",
+    "index.html": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/index.html",
     "static/media/Search.svg": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/media/Search.c27d2ebf4e6fb5d1c5a4ae1e315d8079.svg",
     "main.e9d6f35e.css.map": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/css/main.e9d6f35e.css.map",
-    "main.05d4c81f.js.map": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/main.05d4c81f.js.map",
+    "main.f7332ab9.js.map": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/main.f7332ab9.js.map",
     "453.a3300dab.chunk.js.map": "/AlsuMuzafarova/AlsuMuzafarova.gitub.io.git/static/js/453.a3300dab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9d6f35e.css",
-    "static/js/main.05d4c81f.js"
+    "static/js/main.f7332ab9.js"
   ]
 }
