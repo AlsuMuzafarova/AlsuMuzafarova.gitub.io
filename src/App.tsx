@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-      <Router>
+      <Router basename="/AlsuMuzafarova.gitub.io">
           <Routes>
               <Route path="/" element={<Main />} />
               <Route path="/Collections" element={<Collections/>}/>
